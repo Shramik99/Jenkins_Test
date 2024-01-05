@@ -17,5 +17,10 @@ pipeline {
                 echo 'Hello from Step 3s'
             }
         }
+        stage('Stage 4'){
+            steps{
+                echo 'Hello from dev file'
+            }
+        }
     }
 }
