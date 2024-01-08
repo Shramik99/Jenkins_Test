@@ -9,17 +9,17 @@ pipeline {
         }
         stage('Stage 2'){
             steps{
-                echo 'hello from github'
+                echo 'hello from satge 2'
             }
         }
         stage('Stage 3'){
             steps{
-                echo 'Hello from Step 3s'
+                echo 'Hello from Step 3'
             }
         }
         stage('Stage 4'){
             steps{
-                echo 'Hello from dev file'
+                echo 'Hello from stage 4
             }
         }
     }
